@@ -110,7 +110,7 @@ export class UserLogInComponent implements OnInit {
               data != undefined
             ) {
               console.log('this is javascript');
-              this.AdminEmail = data.ArrayOfResponse[0].AdminEmail;
+              this.AdminEmail = data.ArrayOfResponse[0].AdminEmail; // save the response from the serve into the variable
               console.log(this.AdminEmail);
             }
             if (data.Code == '200') {
