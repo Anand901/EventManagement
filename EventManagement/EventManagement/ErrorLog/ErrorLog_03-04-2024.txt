@@ -1,0 +1,335 @@
+------------------------------------------03-04-2024 16:42:20------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmai","UserPhoneNo":"8989898989","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:42:20------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:42:21------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPassword', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:42:45------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmai","UserPhoneNo":"8989898989","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:42:48------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:43:15------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPassword', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:48:19------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":null,"UserAdress":null,"UserEmail":null,"UserPhoneNo":null,"UserPassword":null,"CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:48:22------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:52:02------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserName', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:52:10------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmail","UserPhoneNo":"8585858585","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:52:10------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:52:10------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPassword', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:52:56------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmail","UserPhoneNo":"8585858585","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:52:59------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:54:13------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPassword', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:54:16------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmail","UserPhoneNo":"8585858585","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:54:16------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:54:16------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPassword', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:54:22------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmail","UserPhoneNo":"8585858585","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:54:37------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:55:33------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPassword', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:55:46------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmail","UserPhoneNo":"8585858585","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:55:50------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:57:40------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPassword', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------03-04-2024 16:57:48------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmail","UserPhoneNo":"8585858585","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:57:51------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 16:58:24------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":"Anand","UserAdress":"India","UserEmail":"anand@gmail","UserPhoneNo":"8585858585","UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 16:58:24------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------03-04-2024 18:44:22------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"Register","AdminName":"Deva","AdminAdress":"Khansar","AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 18:44:22------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------03-04-2024 18:44:23------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCould not find stored procedure ' _SP_AdminManagemnt'.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.UserManagemernt.AdminServices.AdminManagement(AdminEntity AdminEntity) in C:\Anand\Week-10\EventManagement\BL\UserManagemernt\AdminServices.cs:line 40
+------------------------------------------03-04-2024 18:44:59------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"Register","AdminName":"Deva","AdminAdress":"Khansar","AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 18:45:10------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------03-04-2024 18:45:10------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCould not find stored procedure ' _SP_AdminManagemnt'.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.UserManagemernt.AdminServices.AdminManagement(AdminEntity AdminEntity) in C:\Anand\Week-10\EventManagement\BL\UserManagemernt\AdminServices.cs:line 40
+------------------------------------------03-04-2024 18:45:19------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"Register","AdminName":"Deva","AdminAdress":"Khansar","AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 18:45:22------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------03-04-2024 18:46:35------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCould not find stored procedure ' _SP_AdminManagemnt'.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.UserManagemernt.AdminServices.AdminManagement(AdminEntity AdminEntity)
+------------------------------------------03-04-2024 18:48:37------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"Register","AdminName":"Deva","AdminAdress":"Khansar","AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------03-04-2024 18:48:40------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------03-04-2024 18:49:56------------------------------------------
+EventManagement=>MangeEvent=>Started{"Flag":"Insert","EventId":0,"EventName":"Holi","EventDescription":"Holi he ","EventStartDate":"2024-04-08T00:00:00","EventEndDate":"2024-04-09T00:00:00","EventImage":"Image","AdminEmail":"deva@123"}
+------------------------------------------03-04-2024 18:49:58------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------03-04-2024 18:51:56------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'AdminId', table 'EventManagement.dbo.EventInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 42
+------------------------------------------03-04-2024 18:52:03------------------------------------------
+EventManagement=>MangeEvent=>Started{"Flag":"Insert","EventId":0,"EventName":"Holi","EventDescription":"Holi he ","EventStartDate":"2024-04-08T00:00:00","EventEndDate":"2024-04-09T00:00:00","EventImage":"Image","AdminEmail":"deva@123"}
+------------------------------------------03-04-2024 18:52:06------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------03-04-2024 18:54:09------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'AdminId', table 'EventManagement.dbo.EventInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 42
+------------------------------------------03-04-2024 18:54:16------------------------------------------
+EventManagement=>MangeEvent=>Started{"Flag":"Insert","EventId":0,"EventName":"Holi","EventDescription":"Holi he ","EventStartDate":"2024-04-08T00:00:00","EventEndDate":"2024-04-09T00:00:00","EventImage":"Image","AdminEmail":"deva@123"}
+------------------------------------------03-04-2024 18:54:23------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------03-04-2024 18:55:19------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'AdminId', table 'EventManagement.dbo.EventInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 42
+------------------------------------------03-04-2024 18:55:23------------------------------------------
+EventManagement=>MangeEvent=>Started{"Flag":"Insert","EventId":0,"EventName":"Holi","EventDescription":"Holi he ","EventStartDate":"2024-04-08T00:00:00","EventEndDate":"2024-04-09T00:00:00","EventImage":"Image","AdminEmail":"deva@gmail"}
+------------------------------------------03-04-2024 18:55:23------------------------------------------
+EventManagement=>EventMange=>Started

@@ -1,0 +1,102 @@
+<body>
+  <div class="container" style="margin: auto; justify-content: center">
+    <div class="title">Log In</div>
+    <div class="content">
+      <form [formGroup]="UserLogIn" (ngSubmit)="OnLogIn()">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Select Role</span>
+            <select
+              dropdown
+              name="mydropDown"
+              class="form-control dropdown-toggle"
+              formControlName="LogInType"
+              value="Role"
+            >
+              <option value="" selected disabled hidden >Select Role</option>
+              <option>Admin</option>
+              <option>User</option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">UserEmail</span>
+            <input
+              type="text"
+              formControlName="Email"
+              placeholder="Enter your email"
+              required
+            />
+            <div
+              *ngIf="
+                userloginControl['Email'].touched &&
+                userloginControl['Email'].invalid
+              "
+              class="alert alert-danger mt-1"
+            >
+              <div
+                *ngIf="
+                  userloginControl['Email'].errors &&
+                  userloginControl['Email'].errors['required']
+                "
+              >
+                Email is required.
+              </div>
+              <div
+                *ngIf="
+                  userloginControl['Email'].errors &&
+                  userloginControl['Email'].errors['email']
+                "
+              >
+                Please, enter valid email address.
+              </div>
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="details">UserPassword</span>
+            <input
+              type="password"
+              formControlName="Password"
+              placeholder="Enter your password"
+              required
+            />
+            <div
+              *ngIf="
+                userloginControl['Password'].touched &&
+                userloginControl['Password'].invalid
+              "
+              class="alert alert-danger mt-1"
+            >
+              <div
+                *ngIf="
+                  userloginControl['Password'].errors &&
+                  userloginControl['Password'].errors['required']
+                "
+              >
+                Email is required.
+              </div>
+              <div
+                *ngIf="
+                  userloginControl['Password'].errors &&
+                  userloginControl['Password'].errors['Password']
+                "
+              >
+                Please, enter valid password
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Log In"  />
+        </div>
+        <div class="link" class="login-box">
+          <a routerLink="/Register" class="link">REGISTER USER</a>
+        </div>
+      </form>
+      <div>{{result}}</div>
+    </div>
+  </div>
+</body>
+
+
+
+

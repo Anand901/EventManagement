@@ -1,0 +1,165 @@
+<body>
+  {{EventActivity.valid}}
+  <div class="container" style="margin: auto; justify-content: center">
+    <div class="title">Add Event</div>
+    <div class="content">
+      <form [formGroup]="EventActivity" (ngSubmit)="AddActivity()">
+        <div class="user-details">
+          <div class="input-box">
+            <select
+              dropdown
+              name="mydropDown"
+              class="form-control dropdown-toggle"
+              (change)="getEventDate()"
+              formControlName="EventName"
+            >
+              <option
+                *ngFor="let item of eventNames"
+                value="{{ item.EventName }}"
+              style="color:#9b59b6; border: 3px solid purple ">
+                {{ item.EventName }}
+              </option>
+            </select>
+          </div>
+          <div class="input-box">
+            <span class="details">ActivityName</span>
+            <input
+              type="text"
+              formControlName="ActivityName"
+              placeholder="Enter the name of event"
+              required
+            />
+            <div
+            *ngIf="
+              EventActivityControl['ActivityName'].errors  &&EventActivityControl['ActivityName'].touched&&
+              EventActivityControl['ActivityName'].errors['required']"
+           class="alert alert-danger mt-1">
+          Activity Name is required.
+          </div>
+          </div>
+          <div class="input-box">
+            <span class="details">ActivityDescription</span>
+            <input
+              type="text"
+              formControlName="ActivityDescription"
+              placeholder="Enter the description"
+              required
+            />
+            <div
+            *ngIf="
+              EventActivityControl['ActivityDescription'].errors  &&EventActivityControl['ActivityDescription'].touched&&
+              EventActivityControl['ActivityDescription'].errors['required']"
+           class="alert alert-danger mt-1">
+           ActivityDescription  is required.
+          </div>
+          </div>
+          <div class="input-box">
+            <span class="details">ActivityStartTime</span>
+            <input
+              type="datetime-local"
+              [min]="EventStartDate"
+              [max]="EventEndDate"
+              placeholder="Enter start date"
+              formControlName="ActivityStartTime"
+              required
+            />
+            <div
+            *ngIf="
+              EventActivityControl['ActivityStartTime'].errors  &&EventActivityControl['ActivityStartTime'].touched&&
+              EventActivityControl['ActivityStartTime'].errors['required']"
+           class="alert alert-danger mt-1">
+           ActivityStartTime  is required.
+          </div>
+          </div>
+          <div class="input-box">
+            <span class="details">ActivityEndTime</span>
+            <input
+              type="datetime-local"
+              [min]="EventStartDate"
+              [max]="EventEndDate"
+              placeholder="Enter end date"
+              formControlName="ActivityEndTime"
+              required
+            />
+            <div
+            *ngIf="
+              EventActivityControl['ActivityEndTime'].errors  &&EventActivityControl['ActivityEndTime'].touched&&
+              EventActivityControl['ActivityEndTime'].errors['required']"
+           class="alert alert-danger mt-1">
+           ActivityEndTime  is required.
+          </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Activity Price</span>
+            <input
+              type="number"
+              placeholder="Enter the price"
+              formControlName="ActivityPrice"
+              required
+            />
+            <div
+            *ngIf="
+              EventActivityControl['ActivityPrice'].errors  &&EventActivityControl['ActivityPrice'].touched&&
+              EventActivityControl['ActivityPrice'].errors['required']"
+           class="alert alert-danger mt-1">
+           ActivityPrice  is required.
+          </div>
+          </div>
+        </div>
+        <div
+          class="button"
+          style="height: auto; width: auto; justify-content: center"
+        >
+          <input type="submit" value="Add" data-bs-toggle="modal"
+          data-bs-target="#exampleModal" />
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+
+
+<div class="d-flex justify-content-center">
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 mt-3" id="exampleModalLabel">Status</h1>
+          <button
+            type="button"
+            class="btn-close chokdi"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body result">
+          {{ result }}
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary dbtn"
+            routerLink="/AdminDashboard"
+            data-bs-dismiss="modal"
+          >
+            Dash Board
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

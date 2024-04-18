@@ -1,0 +1,19 @@
+
+.popup{
+    justify-content: center;
+      margin-left: 500px;
+      height: 120px;
+  }
+  
+  .dbtn{
+    margin-left: 5px;
+  }
+  
+  .chokdi{
+    padding-right: 50px;
+  }
+  
+  .result{
+    justify-content: center;
+    padding: 10px;
+  }

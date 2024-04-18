@@ -1,0 +1,963 @@
+------------------------------------------09-04-2024 10:25:36------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 10:26:37------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 10:30:24------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 10:30:55------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 10:31:40------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 10:31:43------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 10:33:14------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 10:33:21------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 10:33:22------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.IO.IOException: The process cannot access the file 'C:\Anand\Week-10\EventManagement\EventManagement\Images\makarsankranti\09-04-2024 10-33-19.jpg' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at EventManagement.Controllers.EventController.AddEvent()   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.Create(String path)
+   at EventManagement.Controllers.EventController.AddEvent()
+------------------------------------------09-04-2024 10:47:20------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 10:48:36------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at EventManagement.Controllers.EventController.AddEvent()   at EventManagement.Controllers.EventController.AddEvent()
+------------------------------------------09-04-2024 10:48:42------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 10:49:14------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 10:51:31------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 10:51:39------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 11:02:08------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 11:02:15------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 11:04:44------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------09-04-2024 11:04:44------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 11:47:11------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 11:47:11------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 11:47:11------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 11:47:48------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 11:47:51------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 11:48:23------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 11:53:24------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-09-04T00:00:00","EventEndDate":"2024-10-04T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 11:53:25------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 11:53:35------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:17:40------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:17:40------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:17:40------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 12:18:07------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:18:11------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:18:22------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 12:20:47------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:20:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:22:09------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 12:22:10------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:22:10------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:22:11------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:22:11------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:22:11------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:22:11------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:22:12------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:22:12------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:22:12------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:22:12------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:22:12------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:22:12------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:23:26------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:23:26------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:24:50------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:24:54------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:28:13------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:28:13------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:34:13------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:34:13------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:34:53------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:34:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:36:59------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:36:59------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:41:18------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:41:18------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:42:51------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:42:51------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:43:01------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:43:01------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 12:52:59------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-11T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 12:52:59------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:02:06------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"","ActivityDescription":"","ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":""}
+------------------------------------------09-04-2024 14:02:06------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:02:13------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"Potluck","ActivityDescription":"Lets eat together","ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------09-04-2024 14:02:15------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:02:15------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"Potluck","ActivityDescription":"Lets eat together","ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------09-04-2024 14:02:17------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:02:17------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventActivityMangement.EventActivityServices.EventActivityManage(EventActivityEntity eventActivityEntity) in C:\Anand\Week-10\EventManagement\BL\EventActivityMangement\EventActivityServices.cs:line 43
+------------------------------------------09-04-2024 14:02:33------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"Potluck","ActivityDescription":"Lets eat together","ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------09-04-2024 14:02:35------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:05:29------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventActivityMangement.EventActivityServices.EventActivityManage(EventActivityEntity eventActivityEntity) in C:\Anand\Week-10\EventManagement\BL\EventActivityMangement\EventActivityServices.cs:line 43
+------------------------------------------09-04-2024 14:05:32------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"Potluck","ActivityDescription":"Let eat together","ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------09-04-2024 14:05:34------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:06:25------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventActivityMangement.EventActivityServices.EventActivityManage(EventActivityEntity eventActivityEntity) in C:\Anand\Week-10\EventManagement\BL\EventActivityMangement\EventActivityServices.cs:line 43
+------------------------------------------09-04-2024 14:07:15------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"Potluck","ActivityDescription":"Lets eat togetther","ActivityStartTime":"2024-04-18T17:00:00","ActivityEndTime":"2024-04-18T18:30:00","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------09-04-2024 14:07:15------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:07:23------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:08:42------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"Potluck","ActivityDescription":"Lets eat togetther","ActivityStartTime":"2024-04-18T17:00:00","ActivityEndTime":"2024-04-18T18:30:00","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------09-04-2024 14:08:42------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:10:19------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"LaddooKing","ActivityDescription":"eats laddo wins game","ActivityStartTime":"2024-04-25T17:00:00","ActivityEndTime":"2024-04-25T18:30:00","ActivityPrice":100,"EventName":"GaneshChaturthi"}
+------------------------------------------09-04-2024 14:10:19------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 14:27:09------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-09-04T00:00:00","EventEndDate":"2024-10-04T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:27:12------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:28:23------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-09-04T00:00:00","EventEndDate":"2024-10-04T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:28:27------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:38:45------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Insert","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:38:48------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:38:52------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 14:39:08------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Insert","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:39:10------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:40:43------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 14:40:48------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Insert","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:40:48------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:40:48------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Insert","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:40:48------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:40:48------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 14:40:48------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 14:41:03------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Insert","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:41:04------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:41:04------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 14:41:10------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:42:11------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 14:42:12------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Insert","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:42:14------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:43:01------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'EventName', table 'EventManagement.dbo.EventInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------09-04-2024 14:43:06------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"EventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:43:08------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:43:47------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:43:49------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:44:59------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:44:59------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:46:06------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:46:06------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:46:22------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:46:22------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:49:55------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:49:55------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:50:09------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:50:09------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:50:36------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:50:36------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:50:38------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:50:38------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:50:40------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:50:40------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:50:43------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:50:43------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:51:46------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:51:46------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:51:55------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:51:55------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:56:02------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:56:02------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:56:04------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:56:04------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:56:53------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:56:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:56:53------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:56:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:58:02------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:58:02------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:58:03------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:58:03------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:59:39------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:59:39------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:59:41------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:59:41------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:59:42------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:59:42------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:59:46------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:59:46------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 14:59:47------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 14:59:47------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:00:16------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"eat and win","ActivityDescription":"LaddoKing","ActivityStartTime":"2024-04-17T18:55:00","ActivityEndTime":"2024-04-17T18:00:00","ActivityPrice":0,"EventName":""}
+------------------------------------------09-04-2024 15:00:16------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:00:31------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"eat and win","ActivityDescription":"LaddoKing","ActivityStartTime":"2024-04-17T18:55:00","ActivityEndTime":"2024-04-17T18:00:00","ActivityPrice":100,"EventName":""}
+------------------------------------------09-04-2024 15:00:31------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:01:08------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:08------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:09------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:09------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:35------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"LaddoKing","ActivityDescription":"Eat and Win","ActivityStartTime":"2024-04-30T18:04:00","ActivityEndTime":"2024-04-30T18:05:00","ActivityPrice":100,"EventName":"Ganesh Chaturthi"}
+------------------------------------------09-04-2024 15:01:35------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:01:44------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:44------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:45------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:45------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:45------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:45------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:46------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:46------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:47------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:47------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:47------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:47------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:48------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:48------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:01:48------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:01:48------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:03:20------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:03:20------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:19:24------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:19:24------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:19:25------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:19:25------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:19:28------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:19:28------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:19:29------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:19:29------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:25:37------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:25:37------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:25:38------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:25:38------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:25:39------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:25:39------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:25:39------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:25:39------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:25:40------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:25:40------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:25:41------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:25:41------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:26:07------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:26:07------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:26:09------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:26:09------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:30:13------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:30:13------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:30:13------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:30:13------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:37:20------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T06:04:54.016Z","ActivityEndTime":"2024-04-04T06:04:54.016Z","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 15:37:20------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:43:35------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:43:35------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:43:36------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:43:36------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:47:52------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:47:52------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:47:54------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:47:54------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:50:23------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:50:23------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:50:26------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:50:26------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:50:26------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:50:26------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:51:16------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:51:16------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:51:17------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:51:17------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:52:13------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:52:13------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:52:14------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:52:14------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:52:17------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 15:52:20------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:54:32------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:54:32------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:54:33------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:54:33------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:54:35------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Ganesh Chaturthi"}
+------------------------------------------09-04-2024 15:54:35------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:57:49------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Ganesh Chaturthi"}
+------------------------------------------09-04-2024 15:57:49------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:57:52------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:57:52------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:57:53------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:57:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:57:54------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 15:57:54------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:57:55------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:57:55------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:57:57------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:57:57------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:57:57------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Ganesh Chaturthi"}
+------------------------------------------09-04-2024 15:57:57------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:57:59------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:57:59------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:58:00------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:58:00------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:58:01------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 15:58:01------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:58:04------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:58:04------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:58:04------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:58:04------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:58:05------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Ganesh Chaturthi"}
+------------------------------------------09-04-2024 15:58:05------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:58:06------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:58:06------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:58:07------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:58:07------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:58:07------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 15:58:07------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:59:36------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:36------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:37------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:37------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:38------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Ganesh Chaturthi"}
+------------------------------------------09-04-2024 15:59:38------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:59:39------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:39------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:40------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:40------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:40------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 15:59:40------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 15:59:42------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:42------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:43------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:43------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:48------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:48------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:49------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:49------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:50------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:50------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:51------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:51------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:51------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:51------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:52------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:52------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:53------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:53------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:54------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:54------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:55------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:55------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:55------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:55------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:56------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:56------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:57------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:57------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:58------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:58------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:59------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:59------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 15:59:59------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 15:59:59------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:01------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:01------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:02------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:02------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:03------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:03------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:04------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:04------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:05------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:05------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:06------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:06------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:09------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:09------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:10------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:00:10------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:00:13------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:13------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:13------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:13------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:14------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:15------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:16------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:17------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:17------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:17------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:17------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:00:17------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:00:17------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:06:54------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------09-04-2024 16:06:54------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------09-04-2024 16:06:58------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:06:58------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:06:59------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"2024-04-10T00:00:00","EventEndDate":"2024-04-10T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------09-04-2024 16:06:59------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------09-04-2024 16:07:00------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"2024-04-10T00:00:00","ActivityEndTime":"2024-04-10T00:00:00","ActivityPrice":0,"EventName":"Ganesh Chaturthi"}
+------------------------------------------09-04-2024 16:07:00------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started

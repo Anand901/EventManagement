@@ -1,0 +1,11 @@
+C:\Anand\Week-10\EventManagement\BL\bin\Debug\BL.dll
+C:\Anand\Week-10\EventManagement\BL\bin\Debug\BL.pdb
+C:\Anand\Week-10\EventManagement\BL\bin\Debug\LIBRARY.dll
+C:\Anand\Week-10\EventManagement\BL\bin\Debug\MODEL.dll
+C:\Anand\Week-10\EventManagement\BL\bin\Debug\LIBRARY.pdb
+C:\Anand\Week-10\EventManagement\BL\bin\Debug\MODEL.pdb
+C:\Anand\Week-10\EventManagement\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Anand\Week-10\EventManagement\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Anand\Week-10\EventManagement\BL\obj\Debug\BL.csproj.CopyComplete
+C:\Anand\Week-10\EventManagement\BL\obj\Debug\BL.dll
+C:\Anand\Week-10\EventManagement\BL\obj\Debug\BL.pdb

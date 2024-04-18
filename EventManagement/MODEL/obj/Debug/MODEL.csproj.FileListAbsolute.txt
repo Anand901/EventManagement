@@ -1,0 +1,6 @@
+C:\Anand\Week-10\EventManagement\MODEL\bin\Debug\MODEL.dll
+C:\Anand\Week-10\EventManagement\MODEL\bin\Debug\MODEL.pdb
+C:\Anand\Week-10\EventManagement\MODEL\obj\Debug\MODEL.csproj.AssemblyReference.cache
+C:\Anand\Week-10\EventManagement\MODEL\obj\Debug\MODEL.csproj.CoreCompileInputs.cache
+C:\Anand\Week-10\EventManagement\MODEL\obj\Debug\MODEL.dll
+C:\Anand\Week-10\EventManagement\MODEL\obj\Debug\MODEL.pdb

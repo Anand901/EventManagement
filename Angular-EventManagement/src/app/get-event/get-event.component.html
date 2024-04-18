@@ -1,0 +1,36 @@
+<h1
+  style="
+    color: brown;
+  "
+  class="d-flex justify-content-center"
+>
+  Event Activitiess
+</h1>
+<div id="EventTable" style="margin:80px auto;">
+    <table class="table" aria-disabled="true">
+      <thead>
+        <tr id="header">    
+          <th scope="col">EventName</th>
+          <th scope="col">EventDescription</th>
+          <th scope="col">EventStartDate </th>      
+          <th scope="col">EventEndDate</th>
+          <th scope="col">others</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let res of result">
+        <tr>
+          <th scope="row">{{res.EventName}}</th>
+          <td>{{res.EventDescription}}</td>
+          <td>{{res.EventStartDate  | date: 'dd/MM/yyyy'}}</td>
+          <td>{{res.EventEndDate | date: 'dd/MM/yyyy'}}</td>
+          <!-- <td><a (click)="getImage()" href={{res.EventImage}}>show image</a></td> -->
+          <td><a (click)="ViewMore(res.EventId, res.EventName, res.EventStartDate, res.EventEndDate, res.EventImage)" style="color:rgb(115, 215, 242); border-bottom: solid;">view more</a>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+   
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    

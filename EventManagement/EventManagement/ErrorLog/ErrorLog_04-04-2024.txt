@@ -1,0 +1,230 @@
+------------------------------------------04-04-2024 11:22:47------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":"string","EventDescription":"string","EventStartDate":"2024-04-04T05:52:23.145Z","EventEndDate":"2024-04-04T05:52:23.145Z","EventImage":"string","AdminEmail":"string"}
+------------------------------------------04-04-2024 11:22:47------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------04-04-2024 11:25:19------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":"string","EventDescription":"string","EventStartDate":"2024-04-04T05:52:23.145Z","EventEndDate":"2024-04-04T05:52:23.145Z","EventImage":"string","AdminEmail":"string"}
+------------------------------------------04-04-2024 11:25:19------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------04-04-2024 11:26:01------------------------------------------
+EventManagement=>ManageEventGet=>Started{"Flag":"Get","EventId":0,"EventName":"string","EventDescription":"string","EventStartDate":"2024-04-04T05:52:23.145Z","EventEndDate":"2024-04-04T05:52:23.145Z","EventImage":"string","AdminEmail":"string"}
+------------------------------------------04-04-2024 11:26:01------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------04-04-2024 11:27:45------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"RangBarse","ActivityDescription":"spreading colours and enjoy","ActivityStartTime":"2024-04-09T03:30:00.151Z","ActivityEndTime":"2024-04-10T05:30:23.151Z","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:27:45------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:27:45------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionColumn 'ResponseMessage' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.EventActivityMangement.EventActivityServices.EventActivityManage(EventActivityEntity eventActivityEntity) in C:\Anand\Week-10\EventManagement\BL\EventActivityMangement\EventActivityServices.cs:line 47
+------------------------------------------04-04-2024 11:28:06------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"RangBarse","ActivityDescription":"spreading colours and enjoy","ActivityStartTime":"2024-04-09T03:30:00.151Z","ActivityEndTime":"2024-04-10T05:30:23.151Z","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:28:09------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:31:06------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionColumn 'ResponseMessage' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.EventActivityMangement.EventActivityServices.EventActivityManage(EventActivityEntity eventActivityEntity) in C:\Anand\Week-10\EventManagement\BL\EventActivityMangement\EventActivityServices.cs:line 47
+------------------------------------------04-04-2024 11:31:08------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"RangBarse","ActivityDescription":"spreading colours and enjoy","ActivityStartTime":"2024-04-09T03:30:00.151Z","ActivityEndTime":"2024-04-10T05:30:23.151Z","ActivityPrice":100,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:31:08------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:31:27------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T05:52:23.157Z","ActivityEndTime":"2024-04-04T05:52:23.157Z","ActivityPrice":0,"EventName":"string"}
+------------------------------------------04-04-2024 11:31:27------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:32:36------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T05:52:23.157Z","ActivityEndTime":"2024-04-04T05:52:23.157Z","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:32:36------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:35:06------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T06:04:54.016Z","ActivityEndTime":"2024-04-04T06:04:54.016Z","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:35:06------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:37:49------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T06:04:54.016Z","ActivityEndTime":"2024-04-04T06:04:54.016Z","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:37:49------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:38:23------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T06:04:54.016Z","ActivityEndTime":"2024-04-04T06:04:54.016Z","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:38:26------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:42:07------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"Potluck","ActivityDescription":"Lets eat together!","ActivityStartTime":"2024-04-09T06:00:54.016Z","ActivityEndTime":"2024-04-09T07:00:54.016Z","ActivityPrice":50,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:42:10------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:42:31------------------------------------------
+EventActivity=>AddActivity=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"Potluck","ActivityDescription":"Lets eat together!","ActivityStartTime":"2024-04-09T06:00:54.016Z","ActivityEndTime":"2024-04-09T07:00:54.016Z","ActivityPrice":50,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:42:32------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:51:01------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T06:04:54.016Z","ActivityEndTime":"2024-04-04T06:04:54.016Z","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:51:03------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 11:53:59------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":"string","ActivityDescription":"string","ActivityStartTime":"2024-04-04T06:04:54.016Z","ActivityEndTime":"2024-04-04T06:04:54.016Z","ActivityPrice":0,"EventName":"Holi"}
+------------------------------------------04-04-2024 11:54:06------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------04-04-2024 16:16:54------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 16:16:54------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:20:14------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"","UserPhoneNo":null,"UserPassword":"","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:20:14------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:31:30------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:31:30------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:32:30------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:32:30------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:41:41------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Vijay","UserAdress":null,"UserEmail":"vijay@gmail","UserPhoneNo":null,"UserPassword":"Vijay@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:41:41------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:41:42------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPhoneNo', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------04-04-2024 18:42:01------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Vijay","UserAdress":null,"UserEmail":"vijay@gmail","UserPhoneNo":null,"UserPassword":"Vijay@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:42:03------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:44:31------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPhoneNo', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------04-04-2024 18:44:35------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"Vijay","UserAdress":null,"UserEmail":"vijay@gmail","UserPhoneNo":null,"UserPassword":"vijay@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:44:38------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:45:40------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserPhoneNo', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------04-04-2024 18:45:42------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"vijay","UserAdress":null,"UserEmail":"vijay@gmail","UserPhoneNo":"7474747474","UserPassword":"vijay2123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:45:42------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:45:42------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserAdress', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------04-04-2024 18:45:51------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"vijay","UserAdress":null,"UserEmail":"vijay@gmail","UserPhoneNo":"7474747474","UserPassword":"vijay2123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:45:54------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:47:57------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserAdress', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------04-04-2024 18:48:00------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"vijay","UserAdress":null,"UserEmail":"vijay@gmail","UserPhoneNo":"7474747474","UserPassword":"vijay@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:48:01------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:49:03------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'UserAdress', table 'EventManagement.dbo.UserInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.AdminManagement.UserServices.UserManagement(UserEntity userEntity) in C:\Anand\Week-10\EventManagement\BL\AdminManagement\UserServices.cs:line 39
+------------------------------------------04-04-2024 18:49:05------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"vijay","UserAdress":"Ahemedabad","UserEmail":"vijay@gmail","UserPhoneNo":"7474747474","UserPassword":"vijay@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:49:07------------------------------------------
+EventManagement=>UserManagement=>Started
+------------------------------------------04-04-2024 18:56:55------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"cfvfc","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------04-04-2024 18:56:55------------------------------------------
+EventManagement=>UserManagement=>Started

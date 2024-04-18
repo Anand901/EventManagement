@@ -1,0 +1,79 @@
+<h1
+  style="
+    color: brown;
+  "
+  class="d-flex justify-content-center"
+>
+  Event Activitiess
+</h1>
+<div class="input-box" style="justify-content: center">
+  <h1  class="d-flex justify-content-center">
+   EventName: {{ this.apiservice.eventNameforActivity }}
+  </h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm d-flex justify-content-center">
+      <h3 style="color: brown; display: block" class="center">
+        EventStartDate:{{ this.apiservice.eventSatrtDateforActivity | date : "yyyy/MM/dd" }}
+      </h3>
+    </div>
+    <div class="col-sm">
+      <img
+        [src]="'data:image/jpg;base64,' + imageFormDb"
+        alt=""
+        class="img img-fluid"
+      />
+    </div>
+    <div class="col-sm d-flex justify-content-center" >
+      <h3 style="color: brown; display: block" >
+        EventEndDate:{{ this.apiservice.eventEndDateActivity | date : "yyyy/MM/dd" }}
+      </h3>
+    </div>
+  </div>
+</div>
+
+<div id="EventTable" *ngIf="result != null; else elseBlock"  style="margin: 80px auto">
+  <table class="table" aria-disabled="true">
+    <thead>
+      <tr id="header">
+        <th scope="col">ActivityName</th>
+        <th scope="col">ActivityDescription</th>
+        <th scope="col">ActivityStartTime</th>
+        <th scope="col">ActivityEndTime</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let res of result">
+      <tr>
+        <th scope="row">{{ res.ActivityName }}</th>
+        <td>{{ res.ActivityDescription }}</td>
+        <td>{{ res.ActivityStartTime }}</td>
+        <td>{{ res.ActivityEndTime }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #elseBlock>`
+  <div class="d-flex justify-content-center ">
+  <div class="alert alert-primary w-50 m-3 d-flex justify-content-center" role="alert">
+    No Activities Found!
+  </div>
+</div>
+</ng-template>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+<!-- 
+<div class="card d-flex justify-content-center" style="width: 18rem;">
+  <img [src]="'data:image/jpg;base64,' + imageFormDb" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">EventName: {{ this.apiservice.eventNameforActivity }}</h5>
+    <h5 class="card-title"> EventStartDate:{{ this.apiservice.eventSatrtDateforActivity | date : "yyyy/MM/dd" }}</h5>
+    <h5 class="card-title">EventEndDate:{{ this.apiservice.eventEndDateActivity | date : "yyyy/MM/dd" }}</h5>
+    <p class="card-text"></p>
+    <a href="#" class="btn btn-primary">Go somewhere</a> 
+  </div>
+</div> -->

@@ -1,0 +1,78 @@
+<div class="container" style="margin: auto; justify-content: center">
+  <div class="title">Publish Event</div>
+  <div class="content">
+    <form [formGroup]="PublishEvent" (ngSubmit)="Publish_Event()">
+      <div class="user-details">
+        <div class="input-box">
+          <select
+            dropdown
+            name="mydropDown"
+            class="form-control dropdown-toggle"
+            (click)="getEventName()"
+            formControlName="EventName"
+          >
+            <option *ngFor="let item of eventNames" value="{{ item.EventId }}">
+              {{ item.EventName }}
+            </option>
+          </select>
+        </div>
+        <div
+          class="button"
+          style="height: auto; width: auto; justify-content: center"
+        >
+          <input
+            type="submit"
+            value="publish Event"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- model -->
+<div class="d-flex justify-content-center">
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 mt-3" id="exampleModalLabel">Status</h1>
+          <button
+            type="button"
+            class="btn-close chokdi"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body result">
+          {{ result }}
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary dbtn"
+            routerLink="/AdminDashboard"
+            data-bs-dismiss="modal"
+          >
+            Dash Board
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

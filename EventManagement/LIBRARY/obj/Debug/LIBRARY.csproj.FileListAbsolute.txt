@@ -1,0 +1,6 @@
+C:\Anand\Week-10\EventManagement\LIBRARY\bin\Debug\LIBRARY.dll
+C:\Anand\Week-10\EventManagement\LIBRARY\bin\Debug\LIBRARY.pdb
+C:\Anand\Week-10\EventManagement\LIBRARY\obj\Debug\LIBRARY.csproj.AssemblyReference.cache
+C:\Anand\Week-10\EventManagement\LIBRARY\obj\Debug\LIBRARY.csproj.CoreCompileInputs.cache
+C:\Anand\Week-10\EventManagement\LIBRARY\obj\Debug\LIBRARY.dll
+C:\Anand\Week-10\EventManagement\LIBRARY\obj\Debug\LIBRARY.pdb

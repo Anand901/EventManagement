@@ -1,0 +1,116 @@
+<body>
+    <div class="container" style="margin: auto; justify-content: center">
+      <div class="title">Add Event Activity Price</div>
+      <div class="content">
+        <form [formGroup]="EventActivityPrice" (ngSubmit)="AddPrice()">
+          <div class="user-details">
+            <div class="input-box">
+              <select
+                dropdown
+                name="mydropDown"
+                class="form-control dropdown-toggle"
+                (change)="getEventActivities()"
+                formControlName="EventName"
+              >EventName
+                <option
+                  *ngFor="let item of eventNames"
+                  value="{{ item.EventName }}"
+                style="color:#9b59b6; border: 3px solid purple ">
+                  {{ item.EventName }}
+                </option>
+              </select>
+            </div>
+            <div class="input-box">
+                <select
+                  dropdown
+                  name="mydropDown"
+                  class="form-control dropdown-toggle"
+                  formControlName="EventActivity"
+                >
+                  <option
+                    *ngFor="let item of eventActivities"
+                    value="{{ item.ActivityName }}"
+                  style="color:#9b59b6; border: 3px solid purple ">
+                    {{ item.ActivityName }}
+                  </option>
+                </select>
+              </div>
+            <div class="input-box">
+              <span class="details">Activity Price</span>
+              <input
+                type="text"
+                formControlName="ActivityPrice"
+                placeholder="Enter the price of activity"
+                required
+              />
+            </div>
+              <div
+              *ngIf="
+                EventActivityPriceControl['ActivityName'].errors  &&EventActivityPriceControl['ActivityName'].touched&&
+                EventActivityPriceControl['ActivityName'].errors['required']"
+             class="alert alert-danger mt-1">
+            Activity price is required.
+            </div>
+            <div class="input-box">
+          <div
+            class="button"
+            style="height: auto; width: auto; justify-content: center"
+          >
+            <input type="submit" value="Add" data-bs-toggle="modal"
+            data-bs-target="#exampleModal" />
+          </div>
+        </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </body>
+
+
+
+
+  <div class="d-flex justify-content-center">
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content popup">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 mt-3" id="exampleModalLabel">Status</h1>
+            <button
+              type="button"
+              class="btn-close chokdi"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body result">
+            {{ result }}
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary dbtn"
+              routerLink="/AdminDashboard"
+              data-bs-dismiss="modal"
+            >
+              Dash Board
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  

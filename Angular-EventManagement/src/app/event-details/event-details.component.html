@@ -1,0 +1,160 @@
+<body>
+  <div class="container" style="margin: auto; justify-content: center">
+    <div class="title">Add Event</div>
+    <div class="content">
+      <form [formGroup]="EventDetails" (ngSubmit)="onAddEvent()">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">EventName</span>
+            <input
+              type="text"
+              formControlName="EventName"
+              placeholder="Enter the name of event"
+              required
+            />
+            <div
+              *ngIf="
+                getEvenetDetailsControl['EventName'].errors &&
+                getEvenetDetailsControl['EventName'].touched &&
+                getEvenetDetailsControl['EventName'].errors['required']
+              "
+              class="alert alert-danger mt-1"
+            >
+              EventName is required.
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Event Description</span>
+            <input
+              type="text"
+              formControlName="EventDescription"
+              placeholder="Enter the description"
+              required
+            />
+            <div
+              *ngIf="
+                getEvenetDetailsControl['EventDescription'].errors &&
+                getEvenetDetailsControl['EventDescription'].touched &&
+                getEvenetDetailsControl['EventDescription'].errors['required']
+              "
+              class="alert alert-danger mt-1"
+            >
+              EventDescription is required.
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Event Start Date</span>
+            <input
+              type="datetime-local"
+              [max]="EventDetails.get('EventEndDate')?.value"
+              placeholder="Enter start date"
+              formControlName="EventStartDate"
+              required
+            />
+            <div
+              *ngIf="
+                getEvenetDetailsControl['EventStartDate'].errors &&
+                getEvenetDetailsControl['EventStartDate'].touched &&
+                getEvenetDetailsControl['EventStartDate'].errors['required']
+              "
+              class="alert alert-danger mt-1"
+            >
+              EventStartDate is required.
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="details">Event End Date</span>
+            <input
+              type="datetime-local"
+              [min]="EventDetails.get('EventStartDate')?.value"
+              placeholder="Enter end date"
+              formControlName="EventEndDate"
+              required
+            />
+            <div
+              *ngIf="
+                getEvenetDetailsControl['EventEndDate'].errors &&
+                getEvenetDetailsControl['EventEndDate'].touched &&
+                getEvenetDetailsControl['EventEndDate'].errors['required']
+              "
+              class="alert alert-danger mt-1"
+            >
+              EventStartDate is required.
+            </div>
+          </div>
+        </div>
+        <label for="avatar">Choose a Image for event</label>
+        <input
+          type="file"
+          id="avatar"
+          name="avatar"
+          accept="image/png, image/jpeg, image/jpg"
+          maxlength="900kb"
+          (change)="useImage($event)"
+          formControlName="EventImage"
+        />
+        <div
+          class="button"
+          style="height: auto; width: auto; justify-content: center"
+        >
+          <input
+            type="submit"
+            value="Add Event"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+<!-- 
+Button trigger modal
+ -->
+
+<!-- Modal -->
+<div class="d-flex justify-content-center">
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content popup">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 mt-3" id="exampleModalLabel">Status</h1>
+          <button
+            type="button"
+            class="btn-close chokdi"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body result">
+          {{ result }}
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary dbtn"
+            routerLink="/AdminDashboard"
+            data-bs-dismiss="modal"
+          >
+            Dash Board
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

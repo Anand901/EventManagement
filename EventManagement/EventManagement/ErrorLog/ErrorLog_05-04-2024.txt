@@ -1,0 +1,488 @@
+------------------------------------------05-04-2024 11:00:14------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:00:14------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:01:17------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:01:17------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:01:17------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionColumn 'Code' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.UserManagemernt.AdminServices.AdminManagement(AdminEntity AdminEntity) in C:\Anand\Week-10\EventManagement\BL\UserManagemernt\AdminServices.cs:line 55
+------------------------------------------05-04-2024 11:01:30------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:01:32------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:04:26------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionColumn 'Code' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.UserManagemernt.AdminServices.AdminManagement(AdminEntity AdminEntity) in C:\Anand\Week-10\EventManagement\BL\UserManagemernt\AdminServices.cs:line 55
+------------------------------------------05-04-2024 11:04:35------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:04:37------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:05:52------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:05:54------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:06:29------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionColumn 'ResponseMessage' does not belong to table Table.   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at BL.UserManagemernt.AdminServices.AdminManagement(AdminEntity AdminEntity) in C:\Anand\Week-10\EventManagement\BL\UserManagemernt\AdminServices.cs:line 55
+------------------------------------------05-04-2024 11:06:35------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":"7777777777","AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:06:35------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:07:25------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:07:25------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:08:46------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:08:46------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:10:21------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:10:21------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:23:51------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:23:51------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:24:45------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:24:45------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:25:17------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:25:17------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:25:40------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:25:40------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:28:10------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:28:10------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:29:11------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"","AdminPhoneNo":null,"AdminPassword":"","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:29:11------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:29:30------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:29:30------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:31:01------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:31:01------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:31:09------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:31:09------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:33:05------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@!123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:33:05------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:33:36------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:33:36------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:35:16------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:35:16------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:35:56------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:35:56------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:36:16------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@2123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:36:16------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:36:29------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:36:29------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:38:03------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:38:03------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:41:22------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:41:22------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:41:54------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Dev a@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:41:54------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:42:01------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:42:01------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 11:49:27------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------05-04-2024 11:49:27------------------------------------------
+EventManagement=>AdminManagement=>Started
+------------------------------------------05-04-2024 15:14:10------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 15:14:21------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 15:14:43------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionCannot insert the value NULL into column 'AdminId', table 'EventManagement.dbo.EventInfo'; column does not allow nulls. INSERT fails.
+The statement has been terminated.   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------05-04-2024 15:16:18------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 15:16:19------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 15:16:30------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 15:44:39------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 15:46:30------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 15:46:49------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 15:46:49------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 80   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 80
+------------------------------------------05-04-2024 15:47:14------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 15:56:28------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 15:57:29------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:01:56------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:01:56------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:02:33------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:03:42------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:03:42------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:05:15------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:05:36------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:05:36------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:05:41------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:10:55------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:10:55------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:11:23------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:12:05------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:12:05------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:12:30------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:20:27------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:20:27------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:25:05------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:25:05------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:25:05------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:25:16------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:28:51------------------------------------------
+EventManagement=>MangeEvent=>Startednull
+------------------------------------------05-04-2024 16:28:51------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:30:20------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionObject reference not set to an instance of an object.   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 34
+------------------------------------------05-04-2024 16:30:24------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:30:30------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:31:52------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:32:25------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:32:41------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:37:54------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:37:57------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:38:00------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:38:07------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:38:13------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:40:46------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:40:57------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 16:45:22------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:45:22------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:46:01------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:46:19------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:50:34------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:52:33------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:54:49------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 16:54:53------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentNullException: String reference not set to an instance of a String.
+Parameter name: s
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 16:55:47------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:14:00------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:14:33------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 90   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 90
+------------------------------------------05-04-2024 17:14:58------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:20:52------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent()   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent()
+------------------------------------------05-04-2024 17:29:09------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:29:38------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 17:30:59------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 17:32:23------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:32:23------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 17:32:40------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:33:56------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 17:37:42------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:37:55------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 17:38:27------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 17:39:19------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 18:11:59------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 18:12:00------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 18:35:58------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 18:36:02------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 18:36:06------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 18:36:06------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 18:36:25------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 18:52:46------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 18:52:46------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 18:55:38------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 18:55:38------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 18:57:27------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 18:57:27------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 19:00:03------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 19:00:03------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 77   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 77
+------------------------------------------05-04-2024 19:02:40------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 19:03:36------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 91
+------------------------------------------05-04-2024 19:04:04------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 19:04:04------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 19:07:54------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 19:08:09------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 19:08:20------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 76
+------------------------------------------05-04-2024 19:08:39------------------------------------------
+EventManagement=>ManageEventGet=>ExceptionSystem.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 77   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 77
+------------------------------------------05-04-2024 19:10:53------------------------------------------
+EventManagement=>EventMange=>Started
+------------------------------------------05-04-2024 19:10:53------------------------------------------
+AdminManagemment=>AdminManagement=>ExceptionSqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.   at System.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at LIBRARY.SqlHelper.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 577
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 489
+   at LIBRARY.SqlHelper.ExecuteDataset(String connectionString, String spName, Object[] parameterValues) in C:\Anand\Week-10\EventManagement\LIBRARY\SqlHelper.cs:line 523
+   at BL.EventMangement.EventServices.EventManage(EventEntity eventEntity) in C:\Anand\Week-10\EventManagement\BL\EventMangement\EventServices.cs:line 45
+------------------------------------------05-04-2024 19:12:22------------------------------------------
+EventManagement=>ManageEventGet=>Started
+------------------------------------------05-04-2024 19:12:31------------------------------------------
+EventManagement=>EventMange=>Started
