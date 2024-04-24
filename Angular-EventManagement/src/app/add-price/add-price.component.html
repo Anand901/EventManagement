@@ -10,11 +10,11 @@
                 name="mydropDown"
                 class="form-control dropdown-toggle"
                 (change)="getEventActivities()"
-                formControlName="EventName"
+                formControlName="EventId"
               >EventName
                 <option
                   *ngFor="let item of eventNames"
-                  value="{{ item.EventName }}"
+                  value="{{ item.EventId }}"
                 style="color:#9b59b6; border: 3px solid purple ">
                   {{ item.EventName }}
                 </option>
@@ -38,26 +38,32 @@
             <div class="input-box">
               <span class="details">Activity Price</span>
               <input
-                type="text"
+                type="number"
                 formControlName="ActivityPrice"
                 placeholder="Enter the price of activity"
-                required
+                [ngClass]="{
+                  'is-invalid':
+                    submmited && EventActivityPriceControl['ActivityPrice'].errors
+                }"
               />
+            <div
+            *ngIf="submmited && EventActivityPriceControl['ActivityPrice'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="EventActivityPriceControl['ActivityPrice'].errors['required']"
+            >
+            ActivityPrice is required
             </div>
-              <div
-              *ngIf="
-                EventActivityPriceControl['ActivityName'].errors  &&EventActivityPriceControl['ActivityName'].touched&&
-                EventActivityPriceControl['ActivityName'].errors['required']"
-             class="alert alert-danger mt-1">
-            Activity price is required.
+          </div>
             </div>
             <div class="input-box">
           <div
             class="button"
             style="height: auto; width: auto; justify-content: center"
           >
-            <input type="submit" value="Add" data-bs-toggle="modal"
-            data-bs-target="#exampleModal" />
+            <input type="submit" value="Add" data-toggle="modal"
+            data-target="#exampleModal" />
           </div>
         </div>
         </div>
@@ -69,7 +75,7 @@
 
 
 
-  <div class="d-flex justify-content-center">
+  <div class="d-flex justify-content-center" *ngIf="result != null">
     <div
       class="modal fade"
       id="exampleModal"

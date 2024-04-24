@@ -13,7 +13,7 @@ using MODEL.Event;
 
 namespace BL.EventMangement
 {
-    public class EventServices
+    public class EventInfoBl
     {
         /// <summary>
         /// Name: Anand Sharma
@@ -26,7 +26,7 @@ namespace BL.EventMangement
         public SerializeResponse<EventEntity> EventManage(EventEntity eventEntity)   // Event Managemnt method
         {
 
-            InsertLog.WriteErrrorLog("EventManagement=>EventMange=>Started");  // error log 
+            InsertLog.WriteErrrorLog("EventInfoBl=>EventMange=>Started");  // error log 
 
 
             #region CreateTheInstances
@@ -144,7 +144,7 @@ namespace BL.EventMangement
             catch (Exception ex)
             {
                 EventResponseMessage.Message = "500|Exception Occurred";
-                InsertLog.WriteErrrorLog("AdminManagemment=>AdminManagement=>Exception" + ex.Message + ex.StackTrace);
+                InsertLog.WriteErrrorLog("EventInfoBl=>EventMange=>Exception" + ex.Message + ex.StackTrace);
             }
             return EventResponseMessage;
         }

@@ -14,7 +14,7 @@ using System.Xml.Linq;
 
 namespace BL.EventActivityMangement
 {
-    public class EventActivityServices
+    public class EventActivityInfoBL
     {
         /// <summary>
         /// Date: 2024-04-06

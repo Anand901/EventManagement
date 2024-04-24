@@ -41,12 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminManagement\UserServices.cs" />
+    <Compile Include="AdminManagement\UserInfoBL.cs" />
     <Compile Include="Class1.cs" />
-    <Compile Include="EventActivityMangement\EventActivityServices.cs" />
-    <Compile Include="EventMangement\EventServices.cs" />
+    <Compile Include="EventActivityMangement\EventActivityInfoBL.cs" />
+    <Compile Include="EventMangement\EventInfoBl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserManagemernt\AdminServices.cs" />
+    <Compile Include="UserManagemernt\AdminInfoBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LIBRARY\LIBRARY.csproj">

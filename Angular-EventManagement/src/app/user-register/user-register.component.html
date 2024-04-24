@@ -1,77 +1,130 @@
-
-<div class="container" style="margin: auto; justify-content: center;" >
-    <div class="title" >Registration</div>
-    <div class="content">
-      <form [formGroup]="UserRegisterForm" (ngSubmit)="onRegister()" >
-        <div class="user-details">      
-          <div class="input-box">
-            <span class="details">Username</span>
-            <input type="text" formControlName="UserName" placeholder="Enter your username" (keypress)="vallidName($event)" required>
-            <div
-            *ngIf="
-              getRegisterFormControl['UserName'].errors  &&getRegisterFormControl['UserName'].touched&&
-              getRegisterFormControl['UserName'].errors['required']"
-           class="alert alert-danger mt-1">
-           UserName  is required.
-          </div>
-          </div>
-       
-          <div class="input-box">
-            <span class="details">UserEmail</span>
-            <input type="text" formControlName="UserEmail"  placeholder="Enter your email" required>
-            <div
-            *ngIf="
-              getRegisterFormControl['UserEmail'].errors  &&getRegisterFormControl['UserEmail'].touched&&
-              getRegisterFormControl['UserEmail'].errors['required']"
-           class="alert alert-danger mt-1">
-           UserEmail  is required.
-          </div>
-          </div>
-          <div class="input-box">
-            <span class="details">UserMobile</span>
-            <input type="text"  formControlName="UserMobile" placeholder="Enter your number" (keypress)="vallidMobile($event)" required>
-            <div
-            *ngIf="
-              getRegisterFormControl['UserMobile'].errors  &&getRegisterFormControl['UserMobile'].touched&&
-              getRegisterFormControl['UserMobile'].errors['required']"
-           class="alert alert-danger mt-1">
-           UserMobile  is required.
-          </div>
-          </div>
-          <div class="input-box">
-            <span class="details">UserAdress</span>
-            <input type="text" id="UAV" formControlName="UserAdress" placeholder="Enter your adress" required>
-            <div
-            *ngIf="
-              getRegisterFormControl['UserAdress'].errors  &&getRegisterFormControl['UserAdress'].touched&&
-              getRegisterFormControl['UserAdress'].errors['required']"
-           class="alert alert-danger mt-1">
-           UserAdress  is required.
-          </div>
-          </div>
-          <div class="input-box">
-            <span class="details">UserPassword</span>
-            <input type="password" formControlName="UserPassword" placeholder="Enter your password" required>
-            <div
-            *ngIf="
-              getRegisterFormControl['UserPassword'].errors  &&getRegisterFormControl['UserPassword'].touched&&
-              getRegisterFormControl['UserPassword'].errors['required']"
-           class="alert alert-danger mt-1">
-           UserPassword  is required.
-          </div>
-          </div>
-        </div>
-        <div class="button">
-          <input type="submit" value="Register">
-        </div>  
-        <div class="link">
-          <a  routerLink="/LogIn" class="link"
-            >Back to log in</a
+<div class="container" style="margin: auto; justify-content: center">
+  <div class="title">Registration</div>
+  <div class="content">
+    <form [formGroup]="UserRegisterForm" (ngSubmit)="onRegister()">
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Username</span>
+          <input
+            type="text"
+            formControlName="UserName"
+            placeholder="Enter your username"
+            (keypress)="vallidName($event)"
+            [ngClass]="{
+              'is-invalid':
+                submitted && getRegisterFormControl['UserName'].errors
+            }"
+          />
+          <div
+            *ngIf="submitted && getRegisterFormControl['UserName'].errors"
+            class="invalid-feedback"
           >
+            <div *ngIf="getRegisterFormControl['UserName'].errors['required']">
+              UserName is required>
+            </div>
+          </div>
         </div>
-      </form>
-    </div>
+
+        <div class="input-box">
+          <span class="details">UserEmail</span>
+          <input
+            type="text"
+            formControlName="UserEmail"
+            placeholder="Enter your email"
+            [ngClass]="{
+              'is-invalid':
+                submitted && getRegisterFormControl['UserEmail'].errors
+            }"
+          />
+          <div
+            *ngIf="submitted && getRegisterFormControl['UserEmail'].errors"
+            class="invalid-feedback"
+          >
+            <div *ngIf="getRegisterFormControl['UserEmail'].errors['required']">
+              UserEmail is required
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <span class="details">UserMobile</span>
+          <input
+            type="text"
+            formControlName="UserMobile"
+            placeholder="Enter your number"
+            (keypress)="vallidMobile($event)"
+            [ngClass]="{
+              'is-invalid':
+                submitted && getRegisterFormControl['UserMobile'].errors
+            }"
+          />
+          <div
+            *ngIf="submitted && getRegisterFormControl['UserMobile'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="getRegisterFormControl['UserMobile'].errors['required']"
+            >
+              UserMobile is required
+            </div>
+            <div
+              *ngIf="getRegisterFormControl['UserMobile'].errors['minlength'] || getRegisterFormControl['UserMobile'].errors['maxlength'] "
+            >
+              UserMobile should be 10 digits only
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <span class="details">UserAdress</span>
+          <input
+            type="text"
+            id="UAV"
+            formControlName="UserAdress"
+            placeholder="Enter your adress"
+            [ngClass]="{
+              'is-invalid':
+                submitted && getRegisterFormControl['UserAdress'].errors
+            }"
+          />
+          <div
+            *ngIf="submitted && getRegisterFormControl['UserAdress'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="getRegisterFormControl['UserAdress'].errors['required']"
+            >
+              UserAdress is required>
+            </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <span class="details">UserPassword</span>
+          <input
+            type="password"
+            formControlName="UserPassword"
+            placeholder="Enter your password"
+            [ngClass]="{
+              'is-invalid':
+                submitted && getRegisterFormControl['UserPassword'].errors
+            }"
+          />
+          <div
+            *ngIf="submitted && getRegisterFormControl['UserPassword'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="getRegisterFormControl['UserPassword'].errors['required']"
+            >
+              UserPassword is required>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="Register" />
+      </div>
+      <div class="link">
+        <a routerLink="/LogIn" class="link">Back to log in</a>
+      </div>
+    </form>
   </div>
-
-
-  
+</div>

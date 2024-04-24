@@ -18,14 +18,16 @@ export class AddPriceComponent implements OnInit {
   eventNames!: EventDetails[];
   eventActivities!: EventActivity[];
   result!: string
+  submmited = false
 
   EventActivityPrice!: FormGroup;
   constructor(private fb: FormBuilder, private apiservice: RestApiService) {
     this.EventActivityPrice = this.fb.group({
       ActivityName: new FormControl(''),
       ActivityPrice: new FormControl('', [Validators.required]),
-      EventName: new FormControl('', [Validators.required]),
+      EventName: new FormControl(''),
       EventActivity: new FormControl('', [Validators.required]),
+      EventId: new FormControl('', [Validators.required])
     });
   }
 
@@ -49,13 +51,13 @@ export class AddPriceComponent implements OnInit {
      // method to get the event activities of the particular event 
     let eventActivity = new EventActivity();
     eventActivity.Flag = 'GetEventActivities';
-    eventActivity.EventName = this.EventActivityPrice.value.EventName;
+    eventActivity.EventId = this.EventActivityPrice.value.EventId;
     this.apiservice
       .getActivity(JSON.stringify(eventActivity))      // call the service to get the event activity
       .subscribe((data: any) => {
         // alert(data.Message)
-        console.log(data);
         if (data != null && data != undefined && data != ' ') {
+          console.log(data);
           this.eventActivities = data.ArrayOfResponse;
         } else {
           console.log('Something went wrong!');
@@ -65,6 +67,8 @@ export class AddPriceComponent implements OnInit {
 
   AddPrice() {
    // method to add the (update the price) of the particular event activity
+   debugger
+   this.submmited = true
     if (this.EventActivityPrice.valid) {
       let eventActivity = new EventActivity();
       eventActivity.Flag = 'Update';
@@ -81,7 +85,7 @@ export class AddPriceComponent implements OnInit {
           }
         });
     } else {
-      this.result = 'form is invalid';
+     return;
     }
   }
   get EventActivityPriceControl() {      // return the controls of the form

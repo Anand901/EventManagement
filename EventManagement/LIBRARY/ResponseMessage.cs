@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace LIBRARY
 {
     public class ResponseMessage
-    {
+    { 
+
         int _code;
         string _Message;
         string _status;

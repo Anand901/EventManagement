@@ -26,6 +26,7 @@ export class EventDetailsComponent implements OnInit {
   }
   // decalre the necessary variables
   EventDetails!: FormGroup;
+  submitted = false;
   fileName!: any;
   result!: string;
   AdminEmail = sessionStorage.getItem('AdminEmail'); // get the admin email from the session storage
@@ -39,6 +40,7 @@ export class EventDetailsComponent implements OnInit {
 
   onAddEvent() {
     // method to add the event details
+    this.submitted = true;
     if (this.EventDetails.valid) {
       console.log(this.EventDetails.value);
       const formData: FormData = new FormData(); // create the instance of the form data
@@ -64,14 +66,21 @@ export class EventDetailsComponent implements OnInit {
           console.log(data);
         });
     } else {
-      this.result = 'form is invalid';
+    return
     }
   }
 
   useImage(event: any) {
     // handle the image
-    if (event.target.files && event.target.files[0]) {
-      const reader = new FileReader();
+    if (
+      event.target.files &&
+      event.target.files[0] 
+    ) {
+      let file = event.target.files[0];
+      console.log(file);
+        if(file.type == "image/jpg" || file.type == "image/jpeg" ) {
+          console.log("correct")
+          const reader = new FileReader();
 
       reader.readAsDataURL(event.target.files[0]); // Read file as data url
       reader.onloadend = (e) => {
@@ -79,6 +88,15 @@ export class EventDetailsComponent implements OnInit {
         this.fileName = event.target.files[0]; // Set image in element
         // Is called because ChangeDetection is set to onPush
       };
+        }
+        else {
+          //call validation
+        this.EventDetails.get('EventImage')?.setValue("")
+        alert("choose valid image format in jpg format")
+        }
     }
-  }
-}
+      
+    }
+    }
+  
+

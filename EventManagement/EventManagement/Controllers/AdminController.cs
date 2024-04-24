@@ -16,7 +16,7 @@ namespace EventManagement.Controllers
     {
         #region Instances
         AdminEntity Admin = new AdminEntity();  // instace of the admin entity
-        AdminServices AdminManage = new AdminServices();  // instance of the admina management
+        AdminInfoBL AdminManage = new AdminInfoBL();  // instance of the admina management
         #endregion
 
         /// <summary>

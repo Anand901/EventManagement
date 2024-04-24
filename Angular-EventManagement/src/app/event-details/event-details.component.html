@@ -10,17 +10,20 @@
               type="text"
               formControlName="EventName"
               placeholder="Enter the name of event"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && getEvenetDetailsControl['EventName'].errors
+              }"
             />
             <div
-              *ngIf="
-                getEvenetDetailsControl['EventName'].errors &&
-                getEvenetDetailsControl['EventName'].touched &&
-                getEvenetDetailsControl['EventName'].errors['required']
-              "
-              class="alert alert-danger mt-1"
+            *ngIf="submitted && getEvenetDetailsControl['EventName'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="getEvenetDetailsControl['EventName'].errors['required']"
             >
-              EventName is required.
+            EventName is required>
+            </div>
             </div>
           </div>
           <div class="input-box">
@@ -29,17 +32,20 @@
               type="text"
               formControlName="EventDescription"
               placeholder="Enter the description"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && getEvenetDetailsControl['EventDescription'].errors
+              }"
             />
             <div
-              *ngIf="
-                getEvenetDetailsControl['EventDescription'].errors &&
-                getEvenetDetailsControl['EventDescription'].touched &&
-                getEvenetDetailsControl['EventDescription'].errors['required']
-              "
-              class="alert alert-danger mt-1"
+            *ngIf="submitted && getEvenetDetailsControl['EventDescription'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="getEvenetDetailsControl['EventDescription'].errors['required']"
             >
-              EventDescription is required.
+            EventDescription is required>
+            </div>
             </div>
           </div>
           <div class="input-box">
@@ -49,17 +55,20 @@
               [max]="EventDetails.get('EventEndDate')?.value"
               placeholder="Enter start date"
               formControlName="EventStartDate"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && getEvenetDetailsControl['EventStartDate'].errors
+              }"
             />
             <div
-              *ngIf="
-                getEvenetDetailsControl['EventStartDate'].errors &&
-                getEvenetDetailsControl['EventStartDate'].touched &&
-                getEvenetDetailsControl['EventStartDate'].errors['required']
-              "
-              class="alert alert-danger mt-1"
+            *ngIf="submitted && getEvenetDetailsControl['EventStartDate'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="getEvenetDetailsControl['EventStartDate'].errors['required']"
             >
-              EventStartDate is required.
+            EventStartDate is required>
+            </div>
             </div>
           </div>
           <div class="input-box">
@@ -69,17 +78,20 @@
               [min]="EventDetails.get('EventStartDate')?.value"
               placeholder="Enter end date"
               formControlName="EventEndDate"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && getEvenetDetailsControl['EventEndDate'].errors
+              }"
             />
             <div
-              *ngIf="
-                getEvenetDetailsControl['EventEndDate'].errors &&
-                getEvenetDetailsControl['EventEndDate'].touched &&
-                getEvenetDetailsControl['EventEndDate'].errors['required']
-              "
-              class="alert alert-danger mt-1"
+            *ngIf="submitted && getEvenetDetailsControl['EventEndDate'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="getEvenetDetailsControl['EventEndDate'].errors['required']"
             >
-              EventStartDate is required.
+            EventEndDate is required>
+            </div>
             </div>
           </div>
         </div>
@@ -115,7 +127,7 @@ Button trigger modal
  -->
 
 <!-- Modal -->
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center" *ngIf="result != null">
   <div
     class="modal fade"
     id="exampleModal"

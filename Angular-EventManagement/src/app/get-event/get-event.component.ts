@@ -23,11 +23,10 @@ export class GetEventComponent implements OnInit {
       .GetEvent(JSON.stringify(event)) // call the service for get event
       .subscribe((data: any) => {
         // metod to get the event page
-        alert(data.Message);
-        console.log(data.Message);
-        console.log(data);
         if (data != null && data != undefined && data != ' ') {
           if (Object.keys(data.ArrayOfResponse[0]).length != 0) {
+            console.log(data.Message);
+            console.log(data);
             console.log('this is javascript');
             this.result = data.ArrayOfResponse;
           } else {

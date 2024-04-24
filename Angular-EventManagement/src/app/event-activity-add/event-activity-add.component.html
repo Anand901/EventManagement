@@ -1,7 +1,7 @@
 <body>
   {{EventActivity.valid}}
   <div class="container" style="margin: auto; justify-content: center">
-    <div class="title">Add Event</div>
+    <div class="title">Add Event Activity</div>
     <div class="content">
       <form [formGroup]="EventActivity" (ngSubmit)="AddActivity()">
         <div class="user-details">
@@ -12,6 +12,10 @@
               class="form-control dropdown-toggle"
               (change)="getEventDate()"
               formControlName="EventName"
+              [ngClass]="{
+                'is-invalid':
+                  submitted && EventActivityControl['EventName'].errors
+              }"
             >
               <option
                 *ngFor="let item of eventNames"
@@ -20,6 +24,16 @@
                 {{ item.EventName }}
               </option>
             </select>
+            <div
+            *ngIf="submitted && EventActivityControl['EventName'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="EventActivityControl['EventName'].errors['required']"
+            >
+            EventName is required
+            </div>
+          </div>
           </div>
           <div class="input-box">
             <span class="details">ActivityName</span>
@@ -27,14 +41,20 @@
               type="text"
               formControlName="ActivityName"
               placeholder="Enter the name of event"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && EventActivityControl['ActivityName'].errors
+              }"
             />
             <div
-            *ngIf="
-              EventActivityControl['ActivityName'].errors  &&EventActivityControl['ActivityName'].touched&&
-              EventActivityControl['ActivityName'].errors['required']"
-           class="alert alert-danger mt-1">
-          Activity Name is required.
+            *ngIf="submitted && EventActivityControl['ActivityName'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="EventActivityControl['ActivityName'].errors['required']"
+            >
+            ActivityName is required
+            </div>
           </div>
           </div>
           <div class="input-box">
@@ -43,16 +63,22 @@
               type="text"
               formControlName="ActivityDescription"
               placeholder="Enter the description"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && EventActivityControl['ActivityDescription'].errors
+              }"
             />
             <div
-            *ngIf="
-              EventActivityControl['ActivityDescription'].errors  &&EventActivityControl['ActivityDescription'].touched&&
-              EventActivityControl['ActivityDescription'].errors['required']"
-           class="alert alert-danger mt-1">
-           ActivityDescription  is required.
+            *ngIf="submitted && EventActivityControl['ActivityDescription'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="EventActivityControl['ActivityDescription'].errors['required']"
+            >
+            ActivityDescription is required
+            </div>
           </div>
-          </div>
+        </div>
           <div class="input-box">
             <span class="details">ActivityStartTime</span>
             <input
@@ -61,14 +87,20 @@
               [max]="EventEndDate"
               placeholder="Enter start date"
               formControlName="ActivityStartTime"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && EventActivityControl['ActivityStartTime'].errors
+              }"
             />
             <div
-            *ngIf="
-              EventActivityControl['ActivityStartTime'].errors  &&EventActivityControl['ActivityStartTime'].touched&&
-              EventActivityControl['ActivityStartTime'].errors['required']"
-           class="alert alert-danger mt-1">
-           ActivityStartTime  is required.
+            *ngIf="submitted && EventActivityControl['ActivityStartTime'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="EventActivityControl['ActivityStartTime'].errors['required']"
+            >
+            ActivityStartTime is required
+            </div>
           </div>
           </div>
           <div class="input-box">
@@ -79,14 +111,20 @@
               [max]="EventEndDate"
               placeholder="Enter end date"
               formControlName="ActivityEndTime"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && EventActivityControl['ActivityEndTime'].errors
+              }"
             />
             <div
-            *ngIf="
-              EventActivityControl['ActivityEndTime'].errors  &&EventActivityControl['ActivityEndTime'].touched&&
-              EventActivityControl['ActivityEndTime'].errors['required']"
-           class="alert alert-danger mt-1">
-           ActivityEndTime  is required.
+            *ngIf="submitted && EventActivityControl['ActivityEndTime'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="EventActivityControl['ActivityEndTime'].errors['required']"
+            >
+            ActivityEndTime is required
+            </div>
           </div>
           </div>
           <div class="input-box">
@@ -95,14 +133,20 @@
               type="number"
               placeholder="Enter the price"
               formControlName="ActivityPrice"
-              required
+              [ngClass]="{
+                'is-invalid':
+                  submitted && EventActivityControl['ActivityPrice'].errors
+              }"
             />
             <div
-            *ngIf="
-              EventActivityControl['ActivityPrice'].errors  &&EventActivityControl['ActivityPrice'].touched&&
-              EventActivityControl['ActivityPrice'].errors['required']"
-           class="alert alert-danger mt-1">
-           ActivityPrice  is required.
+            *ngIf="submitted && EventActivityControl['ActivityPrice'].errors"
+            class="invalid-feedback"
+          >
+            <div
+              *ngIf="EventActivityControl['ActivityPrice'].errors['required']"
+            >
+            ActivityPrice is required
+            </div>
           </div>
           </div>
         </div>
@@ -120,7 +164,7 @@
 
 
 
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center" *ngIf="result != null">
   <div
     class="modal fade"
     id="exampleModal"

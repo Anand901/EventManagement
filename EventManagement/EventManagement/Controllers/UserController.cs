@@ -23,7 +23,7 @@ namespace EventManagement.Controllers
     {
 
         #region Inatance
-        UserServices UserManage = new UserServices();
+        UserInfoBL UserManage = new UserInfoBL();
         #endregion
 
         /// <summary>

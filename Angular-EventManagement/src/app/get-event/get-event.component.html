@@ -1,12 +1,24 @@
-<h1
-  style="
-    color: brown;
-  "
-  class="d-flex justify-content-center"
->
-  Event Activitiess
-</h1>
-<div id="EventTable" style="margin:80px auto;">
+<body>
+  <nav class="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a routerLink="/GetEvent" >Events</a></li>
+              <li><a href="#">About</a></li>
+              <li><a onclick="sessionStorage.clear() " routerLink="/LogIn">LogOut</a></li>
+          </ul>
+          <h1 class="logo">Event Mangement</h1>
+      </div>
+  </nav>
+</body>
+
+
+<div id="EventTable" style=" padding: 200px;">
     <table class="table" aria-disabled="true">
       <thead>
         <tr id="header">    
@@ -34,3 +46,4 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     
+   

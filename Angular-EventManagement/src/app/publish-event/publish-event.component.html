@@ -8,13 +8,16 @@
             dropdown
             name="mydropDown"
             class="form-control dropdown-toggle"
-            (click)="getEventName()"
-            formControlName="EventName"
+            formControlName="EventId"
+            (click)="OnChangeEvent()"
           >
             <option *ngFor="let item of eventNames" value="{{ item.EventId }}">
               {{ item.EventName }}
             </option>
           </select>
+          <div *ngIf="submitted && f['EventId'].errors" class="invalid-feedback">
+            <div *ngIf="f['EventId'].errors['required']">Event Name is required></div>
+          </div>
         </div>
         <div
           class="button"
@@ -33,7 +36,7 @@
 </div>
 
 <!-- model -->
-<div class="d-flex justify-content-center">
+<div class="d-flex justify-content-center" >
   <div
     class="modal fade"
     id="exampleModal"

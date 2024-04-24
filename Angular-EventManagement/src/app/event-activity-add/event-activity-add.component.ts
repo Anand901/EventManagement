@@ -23,17 +23,28 @@ export class EventActivityAddComponent implements OnInit {
   EventStartDate!: string;
   EventEndDate!: string;
   result!: string
+  submitted=false
   constructor(private fb: FormBuilder, private apiservice: RestApiService) {
     this.EventActivity = this.fb.group({
       // declare the form controlls
       ActivityName: new FormControl('', [
         Validators.required
       ]),
-      ActivityDescription: new FormControl(''),
-      ActivityStartTime: new FormControl(''),
-      ActivityEndTime: new FormControl(''),
-      ActivityPrice: new FormControl(''),
-      EventName: new FormControl(''),
+      ActivityDescription: new FormControl('',[
+        Validators.required
+      ]),
+      ActivityStartTime: new FormControl('',[
+        Validators.required
+      ]),
+      ActivityEndTime: new FormControl('',[
+        Validators.required
+      ]),
+      ActivityPrice: new FormControl('',[
+        Validators.required
+      ]),
+      EventName: new FormControl('',[
+        Validators.required
+      ]),
       EventId: new FormControl(''), 
     });
   }
@@ -62,6 +73,7 @@ export class EventActivityAddComponent implements OnInit {
 
   AddActivity() {
   // method to add the event activity add 
+  this.submitted = true
     if(this.EventActivity.valid){
       let activity = new EventActivity();    // create the instance of the event activity
     activity.ActivityName = this.EventActivity.value.ActivityName;
@@ -85,7 +97,7 @@ export class EventActivityAddComponent implements OnInit {
         }
       });
     }else{
-      this.result = "form is invalid"
+      return
     }
   }
 
@@ -96,11 +108,10 @@ export class EventActivityAddComponent implements OnInit {
     event1.EventName = this.EventActivity.value.EventName;
 
     this.apiservice
-      .getEventDate(JSON.stringify(event1))    // calls the service to get the event activty
+      .getEventDate(JSON.stringify(event1))      // calls the service to get the event activty
       .subscribe((data: any) => {
-        alert(data.Message);
-        console.log(data);
         if (data != null && data != undefined && data != " ") {
+          console.log(data);
         this.EventStartDate = data.ArrayOfResponse[0].EventStartDate ;
         this.EventEndDate = data.ArrayOfResponse[0].EventEndDate;
         }else{

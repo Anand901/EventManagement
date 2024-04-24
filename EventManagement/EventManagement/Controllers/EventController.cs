@@ -18,7 +18,7 @@ namespace EventManagement.Controllers
 {
     public class EventController : ApiController     // inherit the base api controller
     {
-        EventServices eventService = new EventServices();    // instance for the event services
+        EventInfoBl eventService = new EventInfoBl();    // instance for the event services
 
 
        /// <summary>

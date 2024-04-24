@@ -1,0 +1,850 @@
+------------------------------------------22-04-2024 11:32:32------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 11:32:32------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 11:32:36------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 11:32:36------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 11:32:38------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 11:32:38------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:22:25------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:22:25------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:22:54------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 12:22:54------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:23:06------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:23:06------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:25:54------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"Register","UserName":"ravivaghela","UserAdress":"shdg sdsjd sbdnjs ","UserEmail":"dummy@gmail.com","UserPhoneNo":"8383838383","UserPassword":"ravi1234","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 12:25:54------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 12:26:25------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"dummy@gmail.com","UserPhoneNo":null,"UserPassword":"ravidmfnhmd","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 12:26:25------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 12:26:31------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"dummy@gmail.com","UserPhoneNo":null,"UserPassword":"ravi1234","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 12:26:31------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 12:26:34------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:26:34------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:26:36------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 12:26:36------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:26:40------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:26:40------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:26:41------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10009}
+------------------------------------------22-04-2024 12:26:41------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:26:47------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:26:47------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:26:49------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10009}
+------------------------------------------22-04-2024 12:26:49------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:26:53------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:26:53------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:26:56------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 12:26:56------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:26:58------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:26:58------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:00------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 12:27:00------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:27:08------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:08------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:09------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10009}
+------------------------------------------22-04-2024 12:27:09------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:27:19------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:19------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:25------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------22-04-2024 12:27:25------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:27:31------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:31------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:34------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:34------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:35------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 12:27:35------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:27:38------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:38------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:40------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10009}
+------------------------------------------22-04-2024 12:27:40------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:27:47------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:47------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:48------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 12:27:48------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:27:50------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:50------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:27:51------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 12:27:51------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:27:54------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:27:54------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:29:01------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 12:29:01------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 12:30:10------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 12:30:10------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:30:43------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 12:30:43------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:30:47------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:30:47------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:30:50------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventDate","EventId":0,"EventName":"Diwali One","EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:30:50------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:31:43------------------------------------------
+EventActivity=>EventActivityAdd=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"sds s","ActivityDescription":"sdsdsd","ActivityStartTime":"2024-04-26T12:30:00","ActivityEndTime":"2024-04-26T12:30:00","ActivityPrice":4545,"EventName":"Diwali One","EventId":0}
+------------------------------------------22-04-2024 12:31:43------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:31:50------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:31:50------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:31:57------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:31:57------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:31:59------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:31:59------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:32:00------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:32:00------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:32:04------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:32:04------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:32:11------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"GetEventActivities","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":"Diwali One","EventId":0}
+------------------------------------------22-04-2024 12:32:11------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:32:15------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Update","ActivityName":"sds s","ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":56767,"EventName":null,"EventId":0}
+------------------------------------------22-04-2024 12:32:15------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:32:31------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"dummy@gmail.com","AdminPhoneNo":null,"AdminPassword":"ravi1234","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 12:32:31------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 12:32:34------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"dummy@gmail.com","UserPhoneNo":null,"UserPassword":"ravi1234","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 12:32:34------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 12:32:35------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:32:35------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:32:40------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10009}
+------------------------------------------22-04-2024 12:32:40------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:32:42------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:32:42------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:32:43------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10009}
+------------------------------------------22-04-2024 12:32:43------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 12:32:50------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:32:50------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:33:48------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 12:33:48------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 12:33:53------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:33:53------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:33:54------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:33:54------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:34:01------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:34:01------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:36:30------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:36:30------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:36:53------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:36:53------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:36:56------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:36:56------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:37:04------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:37:04------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:37:10------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:37:10------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:37:16------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:37:16------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:37:17------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:37:17------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:38:19------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:38:19------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:38:35------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:38:35------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:38:44------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:38:44------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:38:47------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:38:47------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:38:53------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:38:53------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:38:54------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:38:54------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:38:57------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:38:57------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:39:00------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:39:00------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:39:02------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:39:02------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:40:25------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:40:25------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:40:26------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:40:26------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:40:27------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:40:27------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:40:27------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:40:27------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:46:41------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:46:41------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:47:37------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":20019,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:47:37------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:47:41------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:47:41------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:49:55------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:49:55------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:50:49------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:50:49------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:53:26------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:53:26------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:54:56------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":10014,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:54:56------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:55:01------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:55:01------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:55:47------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:55:47------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:55:53------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":10011,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:55:53------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 12:55:53------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 12:55:53------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:01:11------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:01:11------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:04:23------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":10012,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:04:23------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:04:37------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:04:37------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:05:07------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"dummy@gmail.com","UserPhoneNo":null,"UserPassword":"ravi1234","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 13:05:07------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 13:05:08------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:05:08------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:05:13------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":20019}
+------------------------------------------22-04-2024 13:05:13------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 13:05:16------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:05:16------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:05:18------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10011}
+------------------------------------------22-04-2024 13:05:18------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 13:05:24------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:05:24------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:05:30------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10011}
+------------------------------------------22-04-2024 13:05:30------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 13:05:32------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:05:32------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:08:13------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:08:13------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:13:50------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 13:13:50------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 13:17:52------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"","AdminPhoneNo":null,"AdminPassword":"","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 13:17:52------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 13:29:18------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"","AdminPhoneNo":null,"AdminPassword":"","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 13:29:18------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 14:04:52------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:04:52------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 14:04:54------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:04:54------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:05:04------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------22-04-2024 14:05:04------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:05:10------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:05:10------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:05:33------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:05:33------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 14:05:45------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:05:45------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:06:03------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":20017,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:06:03------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:06:04------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:06:04------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:07:39------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:07:39------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 14:07:41------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:07:41------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:07:43------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":20019}
+------------------------------------------22-04-2024 14:07:43------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:07:46------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:07:46------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:24:04------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:24:04------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 14:24:09------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:24:09------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:24:15------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:24:15------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:24:19------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:24:19------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:25:03------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:25:03------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:25:05------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:25:05------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:25:05------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:25:05------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:25:08------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:25:08------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:25:56------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:25:56------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:26:17------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:26:17------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:26:18------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:26:18------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:26:43------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:26:43------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:26:45------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:26:45------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:26:45------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:26:45------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:26:47------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:26:47------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:27:34------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:27:34------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:27:34------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:27:34------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:28:45------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:28:45------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:30:49------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:30:49------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:32:32------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:32:32------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:33:06------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:33:06------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:33:08------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:33:08------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:53:24------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@122","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:53:24------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 14:53:30------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:53:30------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 14:53:32------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:53:32------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:53:35------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"GetEventActivities","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10013}
+------------------------------------------22-04-2024 14:53:35------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:54:01------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:54:01------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:54:05------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:54:05------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:54:06------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventDate","EventId":0,"EventName":"Dashera","EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:54:06------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:56:51------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 14:56:51------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:56:54------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:56:54------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:56:57------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventDate","EventId":0,"EventName":"Dashera2","EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:56:57------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:57:13------------------------------------------
+EventActivity=>EventActivityAdd=>Started{"ActivityId":0,"Flag":"Insert","ActivityName":"eeeeee","ActivityDescription":"eeeeeeee","ActivityStartTime":"2024-04-26T16:57:00","ActivityEndTime":"2024-04-26T19:57:00","ActivityPrice":34,"EventName":"Dashera2","EventId":0}
+------------------------------------------22-04-2024 14:57:13------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:57:17------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:57:17------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:57:19------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"GetEventActivities","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":20020}
+------------------------------------------22-04-2024 14:57:19------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:57:56------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:57:56------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:57:57------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"GetEventActivities","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":20020}
+------------------------------------------22-04-2024 14:57:57------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:58:01------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Update","ActivityName":"eeeeee","ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":555,"EventName":null,"EventId":0}
+------------------------------------------22-04-2024 14:58:01------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:58:06------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:58:06------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:58:14------------------------------------------
+EventManagement=>PublishEvent=>Started{"Flag":"Update","EventId":20020,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:58:14------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:58:14------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:58:14------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:58:21------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:58:21------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:58:40------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:58:40------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 14:58:48------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 14:58:48------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------22-04-2024 14:58:50------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:58:50------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 14:58:52------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":20020}
+------------------------------------------22-04-2024 14:58:52------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 14:58:54------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 14:58:54------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:04:24------------------------------------------
+EventManagement=>RegisterAdmin=>Started{"AdminId":0,"Flag":"LogIn","AdminName":null,"AdminAdress":null,"AdminEmail":"deva@gmail","AdminPhoneNo":null,"AdminPassword":"Deva@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------22-04-2024 15:04:24------------------------------------------
+AdminInfoBL=>AdminManagement=>Started
+------------------------------------------22-04-2024 15:04:26------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:04:26------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:06:35------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:06:35------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:06:38------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:06:38------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:06:41------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventDate","EventId":0,"EventName":"Bishakhi","EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:06:41------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:08:28------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:08:28------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:08:33------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:08:33------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:09:45------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:09:45------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:10:13------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:10:13------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:10:34------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:10:34------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:10:43------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:10:43------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:15:21------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:15:21------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:17:51------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:17:51------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:21:23------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:21:23------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:22:00------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:22:01------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:22:02------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:22:02------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:23:36------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:23:36------------------------------------------
+EventManagement=>AddEvent=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97
+------------------------------------------22-04-2024 15:23:54------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:23:54------------------------------------------
+EventManagement=>AddEvent=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97
+------------------------------------------22-04-2024 15:24:05------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:24:05------------------------------------------
+EventManagement=>AddEvent=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97
+------------------------------------------22-04-2024 15:24:28------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:25:23------------------------------------------
+EventManagement=>AddEvent=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97
+------------------------------------------22-04-2024 15:26:11------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:26:11------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:26:14------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:26:14------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:29:10------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:29:10------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:29:47------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:29:47------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:30:54------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:30:54------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:31:00------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:31:00------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:31:23------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:31:23------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:33:59------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:33:59------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:34:14------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"GetEventActivities","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10013}
+------------------------------------------22-04-2024 15:34:14------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 15:34:16------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"GetEventActivities","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":20018}
+------------------------------------------22-04-2024 15:34:16------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 15:38:15------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:38:15------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:41:09------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:41:09------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:41:42------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:41:42------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:41:45------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:41:45------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:42:10------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:42:10------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:42:38------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"GetEventActivities","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":20018}
+------------------------------------------22-04-2024 15:42:38------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------22-04-2024 15:43:21------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:43:21------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:47:03------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:47:03------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:47:05------------------------------------------
+EventManagement=>GetEventName=>Started{"Flag":"GetEventName","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------22-04-2024 15:47:05------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:47:42------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:47:42------------------------------------------
+EventManagement=>AddEvent=>ExceptionSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97   at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Web.HttpFileCollection.Get(Int32 index)
+   at EventManagement.Controllers.EventController.AddEvent() in C:\Anand\Week-10\EventManagement\EventManagement\Controllers\EventController.cs:line 97
+------------------------------------------22-04-2024 15:54:45------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:54:45------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:55:46------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:55:46------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------22-04-2024 15:56:30------------------------------------------
+EventManagement=>AddEvent=>Started
+------------------------------------------22-04-2024 15:56:30------------------------------------------
+EventInfoBl=>EventMange=>Started

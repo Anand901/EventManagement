@@ -17,6 +17,9 @@
               <option>Admin</option>
               <option>User</option>
             </select>
+            <div *ngIf="submitted && userloginControl['LogInType'].errors" class="invalid-feedback">
+              <div *ngIf="userloginControl['LogInType'].errors['required']">role is required></div>
+            </div>
           </div>
           <div class="input-box">
             <span class="details">UserEmail</span>
@@ -24,31 +27,10 @@
               type="text"
               formControlName="Email"
               placeholder="Enter your email"
-              required
+              [ngClass]="{'is-invalid': submitted && userloginControl['Email'].errors}"
             />
-            <div
-              *ngIf="
-                userloginControl['Email'].touched &&
-                userloginControl['Email'].invalid
-              "
-              class="alert alert-danger mt-1"
-            >
-              <div
-                *ngIf="
-                  userloginControl['Email'].errors &&
-                  userloginControl['Email'].errors['required']
-                "
-              >
-                Email is required.
-              </div>
-              <div
-                *ngIf="
-                  userloginControl['Email'].errors &&
-                  userloginControl['Email'].errors['email']
-                "
-              >
-                Please, enter valid email address.
-              </div>
+            <div *ngIf="submitted && userloginControl['Email'].errors" class="invalid-feedback">
+              <div *ngIf="userloginControl['Email'].errors['required']">email is required></div>
             </div>
           </div>
           <div class="input-box">
@@ -57,31 +39,10 @@
               type="password"
               formControlName="Password"
               placeholder="Enter your password"
-              required
+              [ngClass]="{'is-invalid': submitted && userloginControl['Password'].errors}"
             />
-            <div
-              *ngIf="
-                userloginControl['Password'].touched &&
-                userloginControl['Password'].invalid
-              "
-              class="alert alert-danger mt-1"
-            >
-              <div
-                *ngIf="
-                  userloginControl['Password'].errors &&
-                  userloginControl['Password'].errors['required']
-                "
-              >
-                Email is required.
-              </div>
-              <div
-                *ngIf="
-                  userloginControl['Password'].errors &&
-                  userloginControl['Password'].errors['Password']
-                "
-              >
-                Please, enter valid password
-              </div>
+            <div *ngIf="submitted && userloginControl['Password'].errors" class="invalid-feedback">
+              <div *ngIf="userloginControl['Password'].errors['required']">Password is required></div>
             </div>
           </div>
         </div>
@@ -95,7 +56,9 @@
       <div>{{result}}</div>
     </div>
   </div>
+ 
 </body>
+
 
 
 

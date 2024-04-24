@@ -16,7 +16,7 @@ namespace EventManagement.Controllers
     public class EventActivityController : ApiController
     {
         #region Instance
-        EventActivityServices EventActivity = new EventActivityServices();    // instance of the event activity management 
+        EventActivityInfoBL EventActivity = new EventActivityInfoBL();    // instance of the event activity management 
         #endregion
 
         /// <summary>

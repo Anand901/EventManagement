@@ -12,7 +12,7 @@ using MODEL.UserEntity;
 
 namespace BL.UserManagemernt
 {
-    public class AdminServices
+    public class AdminInfoBL
     {
         /// <summary>
         /// Date: 2024-04-05
@@ -25,7 +25,7 @@ namespace BL.UserManagemernt
         public SerializeResponse<AdminEntity> AdminManagement(AdminEntity AdminEntity)  // Admin mangemnt Method
         {
             {
-                InsertLog.WriteErrrorLog("EventManagement=>AdminManagement=>Started");  // error log
+                InsertLog.WriteErrrorLog("AdminInfoBL=>AdminManagement=>Started");  // error log
 
                 #region CreateInstances
                 ConvertDataTable bl = new ConvertDataTable();
@@ -103,7 +103,7 @@ namespace BL.UserManagemernt
                 catch (Exception ex)
                 {
                     AdminResponsemessage.Message = "500|Exception Occurred";
-                    InsertLog.WriteErrrorLog("AdminManagemment=>AdminManagement=>Exception" + ex.Message + ex.StackTrace);
+                    InsertLog.WriteErrrorLog("AdminInfoBL=>AdminManagement=>Exception" + ex.Message + ex.StackTrace);
                 }
                 return AdminResponsemessage;
             }

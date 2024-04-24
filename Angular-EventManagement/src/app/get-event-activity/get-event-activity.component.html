@@ -42,6 +42,7 @@
         <th scope="col">ActivityDescription</th>
         <th scope="col">ActivityStartTime</th>
         <th scope="col">ActivityEndTime</th>
+        <th scope="col">ActivityPrice</th>
       </tr>
     </thead>
     <tbody *ngFor="let res of result">
@@ -50,6 +51,7 @@
         <td>{{ res.ActivityDescription }}</td>
         <td>{{ res.ActivityStartTime }}</td>
         <td>{{ res.ActivityEndTime }}</td>
+        <td>{{ res.ActivityPrice }}</td>      
       </tr>
     </tbody>
   </table>

@@ -1,0 +1,116 @@
+------------------------------------------19-04-2024 11:19:15------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Annad@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------19-04-2024 11:19:15------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------19-04-2024 11:19:35------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------19-04-2024 11:19:35------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------19-04-2024 11:19:36------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 11:19:36------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 11:19:40------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------19-04-2024 11:19:40------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:22:59------------------------------------------
+EventManagement=>RegisterUser=>Started{"UserId":0,"Flag":"LogIn","UserName":null,"UserAdress":null,"UserEmail":"Anand@gmail","UserPhoneNo":null,"UserPassword":"Anand@123","CeratedDate":"0001-01-01T00:00:00"}
+------------------------------------------19-04-2024 11:22:59------------------------------------------
+UserInfoBL=>UserManagement=>Started
+------------------------------------------19-04-2024 11:23:02------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 11:23:02------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 11:23:05------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------19-04-2024 11:23:05------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:24:06------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:24:06------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:24:23------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:24:23------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:24:26------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:24:26------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:25:34------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:25:34------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:26:34------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:26:34------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:29:37------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:29:37------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:29:51------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:29:51------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:29:53------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:29:53------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:30:18------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 11:30:18------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 11:30:22------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 11:30:22------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 11:30:24------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------19-04-2024 11:30:24------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 15:22:11------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 15:22:11------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 15:22:57------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 15:22:57------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 15:23:00------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------19-04-2024 15:23:00------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 15:28:42------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 15:28:42------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 15:28:44------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 15:28:44------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 15:28:47------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------19-04-2024 15:28:47------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 15:31:33------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":0}
+------------------------------------------19-04-2024 15:31:33------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 15:31:34------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 15:31:34------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 15:31:36------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10008}
+------------------------------------------19-04-2024 15:31:36------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
+------------------------------------------19-04-2024 15:31:39------------------------------------------
+EventManagement=>GetEvent=>Started{"Flag":"Get","EventId":0,"EventName":null,"EventDescription":null,"EventStartDate":"0001-01-01T00:00:00","EventEndDate":"0001-01-01T00:00:00","EventImage":null,"AdminEmail":null}
+------------------------------------------19-04-2024 15:31:39------------------------------------------
+EventInfoBl=>EventMange=>Started
+------------------------------------------19-04-2024 15:31:40------------------------------------------
+EventActivity=>EventActivityGet=>Started{"ActivityId":0,"Flag":"Get","ActivityName":null,"ActivityDescription":null,"ActivityStartTime":"0001-01-01T00:00:00","ActivityEndTime":"0001-01-01T00:00:00","ActivityPrice":0,"EventName":null,"EventId":10009}
+------------------------------------------19-04-2024 15:31:40------------------------------------------
+EventActivityServices=>EventActivitymanage=>Started
